@@ -1,0 +1,90 @@
+.u-section-1 {
+  background-image: url('../images/guindo.jpg');
+    background-position: 50% 50%;
+    min-height: 800px;
+  }
+  
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 1140px) / 2) + 1140px);
+    margin: 0 0 0 auto;
+  }
+  
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 800px;
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  
+  .u-section-1 .u-container-layout-1 {
+    padding: 25px 30px 25px 50px;
+  }
+  
+  .u-section-1 .u-text-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: -300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "PT Sans", sans-serif;
+    text-shadow: 2px 2px 14px rgba(0,0,0,0.15);
+    margin: 227px 13px 0 0;
+  }
+  
+  .u-section-1 .u-text-2 {
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.15);
+    font-size: 6rem;
+    margin: 19px 0 0;
+  }
+  
+  .u-section-1 .u-text-3 {
+    font-size: 1.25rem;
+    letter-spacing: 0px;
+    font-style: italic;
+    text-align: left;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.15);
+    margin: 30px auto 0 0;
+  }
+  
+  @media (max-width: 1199px) {
+     .u-section-1 {
+      min-height: 520px;
+    }
+  
+    .u-section-1 .u-layout-wrap-1 {
+      width: calc(((100% - 940px) / 2) + 940px);
+    }
+  
+    .u-section-1 .u-layout-cell-1 {
+      min-height: 660px;
+    }
+  
+    .u-section-1 .u-container-layout-1 {
+      padding-left: 40px;
+    }
+  
+    .u-section-1 .u-text-1 {
+      margin-right: 0;
+    }
+  
+    .u-section-1 .u-text-2 {
+      font-size: 4.25rem;
+    }
+  }
+
+  

@@ -1,0 +1,95 @@
+
+
+.main-section {
+    padding: 50px 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section-description {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .section-image img {
+    max-width: 100%;
+  }
+  
+  .info-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .info-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .benefits-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .benefit {
+    margin-bottom: 20px;
+  }
+  
+  .benefit-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .benefit-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .follow-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .follow-info {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-link {
+    font-size: 16px;
+    color: #3fb7fe;
+    text-decoration: none;
+  }
+  
+  .objectives-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .objectives-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .objective {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .img-button{
+    width: 20px;
+    height: 20px;
+  }
+  
