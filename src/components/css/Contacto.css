@@ -1,0 +1,74 @@
+/* Animación radiante para los ítems de contacto */
+@keyframes radiante {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.138);
+    }
+    100% {
+      transform: scale(1.05);
+      box-shadow: 0 0 0 8px rgba(0, 123, 255, 0);
+    }
+  }
+  
+  /* Estilos para el contenedor principal */
+  .contacto-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px;
+      background-color: #f9f9f9;
+      border-radius: 40px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.8s ease forwards; /* Animación al cargar */
+  }
+  
+  /* Animación para el título */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Estilos para el título */
+  .contacto-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+      font-size: 2.5rem;
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      animation: slideIn 0.8s ease forwards; /* Animación al cargar */
+  }
+  
+  /* Estilos para los ítems de contacto */
+  .contacto-item {
+      margin-bottom: 20px;
+      animation: radiante 1s infinite alternate; /* Aplica la animación radiante */
+  }
+  
+  /* Estilos para los enlaces de contacto */
+  .contacto-link {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      font-weight: bold;
+  }
+  
+  .contacto-link:hover {
+      color: #0056b3;
+  }
+  
+  /* Estilos para la dirección */
+  .contacto-direccion {
+      font-style: italic;
+      color: #0056b3;
+  }
+  

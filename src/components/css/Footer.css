@@ -1,12 +1,18 @@
 /* Footer.css */
 
 .footer {
-    background-color: #333; 
-    color: #fff; 
+  border-radius: 10px;
+    background-color: #541421; 
+    color: #ffffff; 
     padding: 20px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.1); /* Sombra suave */
   }
   
   .footer-content {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;

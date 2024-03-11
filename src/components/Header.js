@@ -1,22 +1,32 @@
-import React from 'react';
-import './css/Header.css';
+import React, { useState } from 'react';
+import './css/Header.css'; // Importa el archivo de estilos CSS para el header
 
 function Header() {
+  const [visible, setVisible] = useState(true);
+
+  const toggleVisibility = () => {
+    setVisible(!visible);
+  };
+
   return (
-    <header className="u-clearfix u-header u-header" id="sec-b4c8">
-      <div className="u-clearfix u-sheet u-sheet-1">
-        <a href="/" className="u-image u-logo u-image-1" data-image-width="589" data-image-height="471">
-          <img src="images/logosireli.png" className="u-logo-image u-logo-image-1" alt="Logo de Sireli" />
+    <header className={visible ? 'header' : 'header hidden'}>
+      <div className="logo-container">
+        <a href="/" className="logo-link" onClick={toggleVisibility}> {/* Agrega onClick al enlace del logo */}
+          <img src="images/logosireli.png" alt="Logo" className="logo" />
         </a>
-        <nav className="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD">
-          {/* Contenido del menú desplegable */}
-        </nav>
       </div>
+      <nav className="nav">
+        <ul className="nav-list">
+          <li className="nav-item"><a href="/" className="nav-link">Inicio</a></li>
+          <li className="nav-item"><a href="/SobreNosotros" className="nav-link">Sobre nosotros</a></li>
+          <li className="nav-item"><a href="/Contacto" className="nav-link">Contacto</a></li>
+          <li className="nav-item"><a href="/Descargar" className="nav-link">Descargar</a></li>
+        </ul>
+      </nav>
     </header>
   );
 }
 
 export default Header;
-
 
 

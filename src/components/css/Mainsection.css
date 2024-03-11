@@ -1,95 +1,264 @@
-
+/* Mainsection.css */
 
 .main-section {
-    padding: 50px 20px;
-  }
-  
-  .section-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .section-description {
-    font-size: 18px;
-    color: #666;
-  }
-  
-  .section-image img {
-    max-width: 100%;
-  }
-  
-  .info-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .info-description {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .benefits-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .benefit {
-    margin-bottom: 20px;
-  }
-  
-  .benefit-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .benefit-description {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .follow-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .follow-info {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .social-links {
-    margin-top: 10px;
-  }
-  
-  .social-link {
-    font-size: 16px;
-    color: #3fb7fe;
-    text-decoration: none;
-  }
-  
-  .objectives-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .objectives-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .objective {
-    font-size: 16px;
-    color: #666;
-  }
+  padding: 50px;
+  background-color: #ffffff; /* Color de fondo para la sección */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+}
 
-  .img-button{
-    width: 20px;
-    height: 20px;
-  }
+
+.section-content {
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: url('../css/guindo2.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;/* Para que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  padding: 100px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1.1); /* Sombra suave */
   
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.section-image {
+  margin-top: 50px;
+}
+
+.img-button {
+  max-width: 200%;
+  height: auto;
+}
+
+.section-info {
+  margin-bottom: 50px;
+}
+
+.info-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: #541421;
+  margin-bottom: 20px;
+  align-items: center; 
+  text-align: center; 
+  margin: auto; 
+  max-width: 600px; 
+  
+}
+
+.info-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  color: #000000;
+  align-items: center; 
+  text-align: center; 
+  margin: auto; 
+  max-width: 600px; 
+}
+
+.benefits-section {
+  text-align: center;
+}
+
+.benefits-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  color: #541421;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+.benefit-content {
+  margin-bottom: 20px;
+}
+
+.benefit-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.benefit-description {
+  text-align: justify ;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.benefit-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+
+.follow-section {
+  border-radius: 10px; /* Bordes redondeados */
+  margin-bottom: 50px;
+  background-color: #541421;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1.1); /* Sombra suave */
+  padding: 30px;
+}
+
+.follow-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.follow-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+.social-icon {
+  margin: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.social-icon:hover {
+  animation: epic-animation 1.5s infinite alternate, shine 1.5s infinite alternate;
+}
+
+@keyframes epic-animation {
+  0% {
+    transform: translateY(0) rotate(0) scale(1);
+  }
+  25% {
+    transform: translateY(-10px) rotate(15deg) scale(1.1);
+  }
+  50% {
+    transform: translateY(0) rotate(0) scale(1);
+  }
+  75% {
+    transform: translateY(10px) rotate(-15deg) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) rotate(0) scale(1);
+  }
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1), 0 0 50px rgba(255, 255, 255, 0.05);
+  }
+}
+
+
+.social-link {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.objectives-section {
+  background-color: #f9f9f9; /* Color de fondo */
+  padding: 50px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+.objectives-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem; /* Tamaño del título */
+  color: #333; /* Color del texto */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.objectives-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Elimina el relleno de la lista */
+}
+
+.objective {
+  font-size: 1.2rem; /* Tamaño del texto del objetivo */
+  color: #666; /* Color del texto */
+  margin-bottom: 10px; /* Espaciado inferior entre objetivos */
+}
+
+/* Estilo para los puntos de la lista */
+.objective:before {
+  content: "•"; /* Caracter de marcador */
+  color: #ff7f50; /* Color del marcador */
+  display: inline-block; /* Muestra el marcador como un bloque */
+  width: 1em; /* Tamaño del marcador */
+  margin-left: -1em; /* Desplaza el marcador hacia la izquierda */
+}
+
+/* Estilo para los puntos de la lista cuando se enumeran en orden */
+.objective-ordered:before {
+  content: counter(list-item) ". "; /* Utiliza números y un punto como marcador */
+  counter-increment: list-item; /* Incrementa el contador de lista */
+}

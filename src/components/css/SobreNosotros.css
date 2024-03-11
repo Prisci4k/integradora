@@ -1,0 +1,71 @@
+/* Animación para el contenedor principal */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación para el título */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para el contenedor principal */
+.sobre-nosotros-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    animation: fadeIn 0.8s ease forwards; /* Animación al cargar */
+}
+
+/* Estilos para el título */
+.sobre-nosotros-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #541421;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: slideIn 0.8s ease forwards; /* Animación al cargar */
+}
+
+/* Estilos para el texto */
+.sobre-nosotros-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilos para el mensaje de unirse */
+.join-message {
+    font-weight: bold;
+    color: #ff6600;
+    animation: pulse 1.5s infinite alternate; /* Animación de pulso */
+}
+
+/* Animación de pulso para el mensaje de unirse */
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
