@@ -49,10 +49,10 @@ function MainSection() {
             <h3 className="follow-title">Síguenos en nuestras redes</h3>
             <p className="follow-info">¡Sigue a SIRELI en las redes sociales para mantenerte al tanto de nuestras últimas noticias y actualizaciones!</p>
             <div className="social-links">
-                <a href="https://www.instagram.com" className="social-link"target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/sireliapp/" className="social-link"target="_blank" rel="noopener noreferrer">
                     <img src="./images/instagram_icon.png" alt="Instagram" className="social-icon" />
                 </a>
-                <a href="https://www.facebook.com" className="social-link"target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/share/L57gjPtB8BYATnng/?mibextid=qi2Omg" className="social-link"target="_blank" rel="noopener noreferrer">
                     <img src="./images/facebook_icon.png" alt="Facebook" className="social-icon" />
                 </a>
             </div>

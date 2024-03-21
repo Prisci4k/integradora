@@ -7,18 +7,16 @@
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
 }
 
-
 .section-content {
   border-radius: 5px;
   text-align: center;
   margin-bottom: 50px;
   background-image: url('../css/guindo2.jpg'); /* Ruta de la imagen de fondo */
-  background-size: cover;/* Para que la imagen cubra todo el fondo */
+  background-size: cover; /* Para que la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen en el fondo */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   padding: 100px; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 1.1); /* Sombra suave */
-  
 }
 
 .section-title {
@@ -134,9 +132,6 @@
   margin: 0 auto;
 }
 
-
-
-
 .follow-section {
   border-radius: 10px; /* Bordes redondeados */
   margin-bottom: 50px;
@@ -207,7 +202,6 @@
   }
 }
 
-
 .social-link {
   font-size: 18px;
   color: #007bff;
@@ -261,4 +255,82 @@
 .objective-ordered:before {
   content: counter(list-item) ". "; /* Utiliza números y un punto como marcador */
   counter-increment: list-item; /* Incrementa el contador de lista */
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .main-section {
+    padding: 30px;
+  }
+
+  .section-image {
+    margin-top: 30px;
+    text-align: center; /* Centrar el contenido */
+  }
+
+  .section-image img {
+    max-width: 100%; /* Asegurar que la imagen no se desborde del contenedor */
+    height: auto;
+    display: inline-block; /* Asegurar que la imagen se comporte como un bloque */
+  }
+
+
+  .section-content {
+    padding: 40px; 
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .section-description {
+    font-size: 18px;
+  }
+
+  .section-image {
+    margin-top: 30px;
+  }
+
+  .benefits-title {
+    font-size: 1.5rem;
+  }
+
+  .benefit {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .benefit-title {
+    font-size: 1.2rem;
+  }
+
+  .benefit-description {
+    font-size: 1rem;
+  }
+
+  .follow-section {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .follow-title {
+    font-size: 20px;
+  }
+
+  .follow-info {
+    font-size: 16px;
+  }
+
+  .objectives-section {
+    padding: 20px;
+  }
+
+  .objectives-title {
+    font-size: 1.5rem;
+  }
+
+  .objective {
+    font-size: 1rem;
+  }
 }
